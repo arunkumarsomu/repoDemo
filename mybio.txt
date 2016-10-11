@@ -1,0 +1,10 @@
+Press i for insert 
+esc gets you out of insert
+We are learning Git and Git commands
+pwd
+mkdir
+clear
+cd
+git status
+git add .
+git commit -m "my first commit"
