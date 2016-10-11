@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Demo WebPage</title>
+	
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+	
+	<script src="http://code.jquery.com/jquery-3.1.0.min.js" type="text/javascript"></script>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js" type="text/javascript"></script>
+	
+	<script src="TemplateWebPage.js" type="text/javascript"></script>
+	
+	<link rel="stylesheet" type="text/css" href="TemplateWebPage.css"> 
+	
+<body>
+ 	<div class= "image"></div>
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="#">Menu Topic 1</a>
+  <a href="#">Menu Topic 2</a>
+  <a href="#">Menu Topic 3</a>
+  <a href="#">Menu Topic 4</a>
+</div>
+
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
+
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+     
+</body>
+</html>
